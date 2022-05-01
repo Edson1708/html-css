@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: lightgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            margin: 10px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        header > h1{
+            text-align: center;
+            box-shadow:inset  3px 3px 3px  rgba(0, 0, 0, 0.47);
+        }
+        nav{
+            background-color: rgb(94, 101, 92);
+            margin: 10px;
+            text-align: right;
+            
+        }
+        nav > a{
+            margin-right: 20px;
+            text-decoration: none;
+            color: white;
+        }
+        nav > a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+        main{
+            margin: 10px;
+            
+        }
+        section{
+            background-color: rgb(188, 181, 181);
+            padding: 5px;
+            border-radius: 10px;
+            box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.434);
+        }
+        section > h2{
+            text-align: center;
+        }
+        article{
+            margin: 20px;
+        }
+        aside{
+            background-color: antiquewhite;
+            margin: 20px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            padding: 5px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Titulo 1</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Titulo 2</h2>
+            <article>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt numquam, eos dolor odio magnam beatae voluptate, distinctio tenetur possimus assumenda accusamus temporibus hic aspernatur ratione enim ipsa eaque modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint explicabo numquam rerum dicta maxime in molestiae nulla ipsam enim, ea incidunt porro, veritatis omnis aliquid est unde consectetur aliquam? Expedita. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat voluptate vel rerum tenetur dolore voluptates repellendus laborum sunt magni fugiat voluptatibus, magnam est, illo in assumenda sapiente corrupti at consectetur.
+            </article>
+            <aside>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid voluptatibus alias dignissimos adipisci ullam fugit quisquam id sed? Ipsam vel perferendis ea velit placeat facere repellat impedit quo ducimus cum!</aside>
+        </section>
+    </main>
+    <footer>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </footer>
+</body>
+
+</html>

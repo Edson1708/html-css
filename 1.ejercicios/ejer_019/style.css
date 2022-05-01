@@ -1,0 +1,11 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+    background-color: blue;
+}
+h1#principal{
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    background-color: brown;
+    text-align: center;
+}

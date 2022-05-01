@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LInks pesonalizados</title>
+    <style>
+        a{
+            color: rgb(0, 255, 85);
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: rgb(100, 0, 0);
+        }
+        /* a:visited{
+            color: blue;
+        } */
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content: '[link]';
+            color: darkgray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a::before{
+            content: "☻";
+        }
+        .especial{
+            color: blueviolet;
+            background-color: rgb(194, 37, 37);
+        }
+        .especial::before{
+            content: '♣';
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Links Personalizados</h1>
+    <ul>
+        <li><a href="https://Google.com" target="_blank" class="especial">Google</a></li>
+        <li><a href="https://Youtube.com" target="_blank">Youtube</a></li>
+        <li><a href="https://Facebook.com" target="_blank" class="especial">Facebook</a></li>
+    </ul>
+</body>
+
+</html>

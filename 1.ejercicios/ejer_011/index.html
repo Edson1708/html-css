@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes dinamicas</title>
+</head>
+<body>
+    <h1>Imagenes que se adapta a la pantalla</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolore veniam voluptate libero magni voluptatem obcaecati enim nam laudantium ratione odit commodi illum rem molestiae delectus, sapiente sed minus dicta.</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagenes/pequeño.jpg" type="image/jpg">
+        <source media="(max-width:1050px )" srcset="imagenes/medio.jpg" type="image/jpg">
+        <img src="imagenes/Grande.jpg" alt="imagen grande">
+    </picture>
+    <h1>Insertando audios forma 1</h1>
+    <audio src="multimedia/happy-mistake.mp3" controls autoplay ></audio>
+    <h2>Insertando audio forma 2</h2>
+    <audio preload="metadata" controls>
+        <source src="multimedia/guanacast-33.mp3" type="audio/mpeg">
+        <p>
+            Infelizmente su navegador no es compatible con mp3 
+            intente descargar el archivo <a href="multimedia/guanacast-33.mp3">aqui</a>
+        </p>
+    </audio>
+</body>
+</html>
