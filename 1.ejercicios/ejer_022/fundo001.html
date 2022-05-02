@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de imagen de fondo</title>
+    <style>
+        body{
+            background-image: url(imagenes/wallpaper001.jpg);
+        }
+        div.cuadrado{
+            display: inline-block;
+            border: 2px solid black;
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            background-color: lightgrey;
+        }
+        div#q1{
+            background-color: skyblue;
+        }
+        div#q2{
+            background-image: linear-gradient(to bottom,yellow,orange);
+        }
+        div#q3{
+            background-image: url(imagenes/pattern001.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="cuadrado" id="q1">
+
+    </div>
+    <div class="cuadrado" id="q2">
+
+    </div>
+    <div class="cuadrado" id="q3">
+
+    </div>
+</body>
+</html>
