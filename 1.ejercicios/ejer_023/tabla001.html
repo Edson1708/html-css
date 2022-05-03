@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera tabla</title>
+    <STYLe>
+        table{
+            width: 400px;
+            height: 400px;
+            
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+            text-align: left;
+            vertical-align: top;
+        }
+        tr.linea{
+            background-color: darkcyan;
+        }
+        td.dato{
+            background-color: yellow;
+        }
+        td.centro{
+            text-align: center;
+            vertical-align: middle;
+        }
+    </STYLe>
+</head>
+<body>
+    <h1>Mi primera tabla</h1>
+    <table>
+        <tr class="linea">
+            <td>A1</td>
+            <td>A2</td>
+            <td>A3</td>
+            <td>A4</td>
+        </tr>
+        <tr>
+            <td>B1</td>
+            <td class="centro">B2</td>
+            <td class="centro">B3</td>
+            <td>B4</td>
+        </tr>
+        <tr>
+            <td class="dato">C1</td>
+            <td class="centro">C2</td>
+            <td class="centro">C3</td>
+            <td>C4</td>
+        </tr>
+        <tr>
+            <td>D1</td>
+            <td>D2</td>
+            <td>D3</td>
+            <td>D4</td>
+        </tr>
+    </table>
+</body>
+</html>
